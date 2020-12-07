@@ -21,3 +21,22 @@ I asked for help about the query on 11/29/20, and I got these messages on 12/02/
 <img src="https://i.imgur.com/mkHldQ1.png" alt="Discord Help 1">
 
 <img src="https://i.imgur.com/E4JbSpN.png" alt="Discord Help 2">
+
+His queries pasted here for clarity:
+
+```graphql
+query GetEventIDs($slug: String) {
+  tournament(slug: $slug) {
+    events {
+      name
+      id
+    }
+  }
+}
+```
+
+```graphql
+{
+  "slug": "the-big-house-online"
+}
+```
