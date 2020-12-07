@@ -40,3 +40,7 @@ query GetEventIDs($slug: String) {
   "slug": "the-big-house-online"
 }
 ```
+
+Schema: https://developer.smash.gg/reference/
+
+Sets: https://developer.smash.gg/docs/examples/queries/sets-in-event
